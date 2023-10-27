@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  background-color: darkcyan;
+  width: 800px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.imagecontainer {
+  border-radius: 8px;
+  flex: 1;
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.content {
+  flex: 1;
+  margin-left: 20px;
+}
+.box {
+  display: flex;
+  background-color: darkcyan;
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+.image_2 {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.imagecontainer_2 {
+  border-radius: 8px;
+  flex: 1;
+}
+.content_2 {
+  flex: 1;
+  margin-left: 20px;
+}
